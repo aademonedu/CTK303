@@ -1,0 +1,74 @@
+#circleSVG {
+    opacity: 1;
+    transition: all 1s linear;
+  }
+  
+  #circleSVG:hover {
+    fill: blue;
+    opacity: .9;
+    transform: scale(5);
+  }
+
+#SVG2 { width: 500px; display: block; }
+
+#Background { display: none; }
+
+#C {
+  animation: cfade 1.0s;
+}
+
+@keyframes cfade {
+  0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+
+#D {
+  animation: cfade 3.0s;
+}
+
+@keyframes dfade {
+  0%   { transform: translate(0, 200px);}
+  100% { transform: translate(0, 0);}
+}
+
+#T {
+  animation: tfade 3.0s;
+  transform-origin: center;
+}
+
+@keyframes tfade {
+  0%   { transform: rotate(360deg);}
+  25%   { transform: rotate(0deg);}
+  50%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#K {
+  animation: kfade 3.0s;
+  transform-origin: left top;
+}
+
+@keyframes kfade {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+#SVGCTK {
+  width: 500px;
+  display: block;
+  transition: transform .25s linear;
+  transform-origin: left top;
+}
+
+#SVGCTK:hover {
+  transform: scale(1.1);
+}
+
+#SVG2 {
+  transition: transform .5s linear;
+  transform-origin:left;
+}
+
+#SVG2:hover {
+  transform: scale(1.1);
+}
