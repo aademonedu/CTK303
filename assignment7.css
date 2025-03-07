@@ -19,7 +19,7 @@ h1 {
 
 h2 {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	color: rgb(172, 115, 23);
+	color: rgb(236, 150, 11);
 	text-shadow: black 2px 2px 2px;
 	font-weight: normal;
 	padding: .25em 0 .25em 0;
@@ -48,8 +48,17 @@ nav a {
 	padding: 1em;
 }
 
+p {
+	color:white
+}
+
 #mimg {
 	width: 100%;
+	margin-bottom: 1rem;
+  }
+
+#mmimg {
+	width: 50%;
 	margin-bottom: 1rem;
   }
 
